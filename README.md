@@ -7,7 +7,7 @@ This project implements a Convolutional Neural Network (CNN) to classify real-wo
 
 ## 📁 Dataset
 
-- Source: [Kaggle Fire Dataset](https://www.kaggle.com/datasets)
+- Source: [Kaggle Fire Dataset](https://www.kaggle.com/datasets/amerzishminha/forest-fire-and-non-fire-dataset)
 - Structure:
   ```
   /train/
