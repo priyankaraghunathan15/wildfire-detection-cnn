@@ -3,7 +3,7 @@
 
 This project implements a Convolutional Neural Network (CNN) to classify real-world RGB images as either *fire* or *non-fire*. Using a custom image dataset, the model achieves over 95% accuracy and incorporates **Grad-CAM** visualizations to interpret what the model "sees" when making predictions.
 
-![Wildfire Image](images/wildfire image.jpeg)
+![Wildfire Image](images/wildfire_image.jpeg)
 
 ---
 
