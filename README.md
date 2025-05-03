@@ -18,12 +18,12 @@ This project implements a Convolutional Neural Network (CNN) to classify real-wo
       /non_fire/
   ```
 - Total:
-  - Training: 2,866 images
-  - Testing: 7,805 images
+  - Training: 6,122 images
+  - Testing: 15,609 images
 
 ---
 
-## 🧠 Model Architecture
+## 📐 Model Architecture
 
 A custom CNN built using the TensorFlow Keras Functional API:
 
@@ -52,7 +52,7 @@ model = Model(inputs=inputs, outputs=outputs)
 
 ---
 
-## 🚀 Training
+## 🔄 Training
 
 - **Epochs:** 10
 - **Batch Size:** 32
@@ -70,7 +70,7 @@ Training & evaluation were performed using `ImageDataGenerator` with preprocesse
 | Accuracy         | 95.08%    | 95.00%   |
 | Loss             | 0.1336    | 0.1400   |
 
-The model showed strong generalization with minimal overfitting.
+Model performance was evaluated on a large and diverse test set of over 15,000 images, ensuring high confidence in its generalization ability.
 
 ---
 
