@@ -133,9 +133,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ## 🧾 Conclusion
 
-This project demonstrates the practical application of deep learning in wildfire detection using RGB imagery. By training a Convolutional Neural Network (CNN) on a large dataset and incorporating Grad-CAM visualizations, the model not only achieves high classification accuracy but also offers interpretability — a crucial aspect in high-stakes scenarios like natural disaster monitoring.
+This project demonstrates the practical application of deep learning in wildfire detection using RGB imagery. By training a Convolutional Neural Network (CNN) on a large dataset and incorporating Grad-CAM visualizations, the model not only achieves high classification accuracy but also provides interpretability, which is a crucial aspect in high-stakes scenarios such as natural disaster monitoring.
 
 The workflow, from data preprocessing and augmentation to model evaluation and explanation, showcases a complete pipeline for computer vision-based binary classification. Future improvements could include deploying the model in real-time systems, expanding to multispectral data, or integrating it with geospatial platforms for early warning systems.
-
-Overall, this project highlights how AI can contribute meaningfully to climate tech and public safety.
 
