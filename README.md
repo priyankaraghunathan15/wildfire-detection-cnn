@@ -1,5 +1,5 @@
 
-# Wildfire Detection Using CNN and Grad-CAM
+<h1 align="center">Wildfire Detection Using CNN and Grad-CAM</h1>
 
 This project implements a Convolutional Neural Network (CNN) to classify real-world RGB images as either *fire* or *non-fire*. Using a custom image dataset, the model achieves over 95% accuracy and incorporates **Grad-CAM** visualizations to interpret what the model "sees" when making predictions.
 
@@ -78,7 +78,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## Model Interpretability — Grad-CAM
+## Model Interpretability: Grad-CAM
 
 **Grad-CAM** was used to generate heatmaps showing where the model focused when making its prediction. This helps explain deep learning results, especially for high-risk applications like wildfire detection.
 
