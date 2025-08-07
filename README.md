@@ -1,5 +1,5 @@
 
-# 🔥 Wildfire Detection Using CNN and Grad-CAM
+# Wildfire Detection Using CNN and Grad-CAM
 
 This project implements a Convolutional Neural Network (CNN) to classify real-world RGB images as either *fire* or *non-fire*. Using a custom image dataset, the model achieves over 95% accuracy and incorporates **Grad-CAM** visualizations to interpret what the model "sees" when making predictions.
 
@@ -9,7 +9,7 @@ This project implements a Convolutional Neural Network (CNN) to classify real-wo
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - Source: [Kaggle Fire Dataset](https://www.kaggle.com/datasets/amerzishminha/forest-fire-and-non-fire-dataset)
 - Structure:
@@ -27,7 +27,7 @@ This project implements a Convolutional Neural Network (CNN) to classify real-wo
 
 ---
 
-## 📐 Model Architecture
+## Model Architecture
 
 A custom CNN built using the TensorFlow Keras Functional API:
 
@@ -56,7 +56,7 @@ model = Model(inputs=inputs, outputs=outputs)
 
 ---
 
-## 🔄 Training
+## Training
 
 - **Epochs:** 10
 - **Batch Size:** 32
@@ -78,17 +78,17 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## 🧭 Model Interpretability — Grad-CAM
+## Model Interpretability — Grad-CAM
 
 **Grad-CAM** was used to generate heatmaps showing where the model focused when making its prediction. This helps explain deep learning results, especially for high-risk applications like wildfire detection.
 
-### 🔥 Fire Image
+### Fire Image
 
 | Original Image | Grad-CAM Overlay |
 |----------------|------------------|
 | ![Original Fire](images/original_fire.png) | ![Grad-CAM Fire](images/gradcam_fire.png) |
 
-### 🌲 Non-Fire Image
+### Non-Fire Image
 
 | Original Image | Grad-CAM Overlay |
 |----------------|------------------|
@@ -96,7 +96,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 📁 wildfire_detection/
@@ -112,7 +112,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3
 - TensorFlow 2 (with Keras API)
@@ -122,7 +122,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## ✨ Key Takeaways
+## Key Takeaways
 
 - Built and evaluated a CNN from scratch using real wildfire images.
 - Achieved 95% test accuracy with minimal overfitting.
@@ -131,7 +131,7 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 This project demonstrates the practical application of deep learning in wildfire detection using RGB imagery. By training a Convolutional Neural Network (CNN) on a large dataset and incorporating Grad-CAM visualizations, the model not only achieves high classification accuracy but also provides interpretability, which is a crucial aspect in high-stakes scenarios such as natural disaster monitoring.
 
