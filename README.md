@@ -67,7 +67,7 @@ Training & evaluation were performed using `ImageDataGenerator` with preprocesse
 
 ---
 
-## ✅ Performance
+## Performance
 
 | Metric           | Train Set | Test Set |
 |------------------|-----------|----------|
@@ -99,9 +99,9 @@ Model performance was evaluated on a large and diverse test set of over 15,000 i
 ## Folder Structure
 
 ```
-📁 wildfire_detection/
-├── 📁 train/
-├── 📁 test/
+wildfire_detection/
+├── train/
+├── test/
 ├── wildfire_detection_cnn.ipynb
 ├── images/
 │   ├── metrics_plot.png
